@@ -7,20 +7,18 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/fragmentbooktitle"
-        android:name="zizi.polbeng.ac.id.fragmentexample1.BookTitle"
-        android:layout_width="0px"
+    <LinearLayout
+        android:id="@+id/fragtop"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/book_titles" />
+        android:orientation="vertical" />
 
-    <fragment
-        android:id="@+id/fragmentbookdescription"
-        android:name="zizi.polbeng.ac.id.fragmentexample1.BookDescription"
-        android:layout_width="0px"
+    <LinearLayout
+        android:id="@+id/fragbottom"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:layout="@layout/book_description" />
+        android:orientation="vertical"/>
 
 </LinearLayout>
